@@ -27,10 +27,10 @@ public class TimeFormat {
 		if (minutes<10) {
 		 String formattedMinutes = String.valueOf(minutes);
 		 formattedMinutes= "0" + minutes;
-		 System.out.println(hours + ":" + formattedMinutes + ampm);
+		 System.out.println(hours + ":" + formattedMinutes + " " + ampm);
 		}
 		else {
-		System.out.println(hours + ":" + minutes + ampm);
+		System.out.println(hours + ":" + minutes + " " + ampm);
 		}
     }
 }
